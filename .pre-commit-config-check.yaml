@@ -91,7 +91,7 @@ repos:
       - id: complexipy # Run the cognitive complexity checker.
         priority: 0
   - repo: https://github.com/fredrikaverpil/creosote
-    rev: v4.2.0
+    rev: v5.0.0
     hooks:
       - id: creosote # Identify unused dependencies and avoid a bloated virtual environment.
         priority: 0
@@ -129,7 +129,7 @@ repos:
       - id: pyroma # Rate your Python packages package friendliness.
         priority: 0
   - repo: https://github.com/renovatebot/pre-commit-hooks
-    rev: 43.8.5
+    rev: 43.10.3
     hooks:
       - id: renovate-config-validator
         language: bun
@@ -140,7 +140,7 @@ repos:
           glob:
             - .github/renovate.json5
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.15.0
+    rev: v0.15.1
     hooks:
       - id: ruff-format # Check for formatting violations using Ruff.
         priority: 0
@@ -151,7 +151,7 @@ repos:
         args: ["--output-format=concise"]
         types_or: [python]
   - repo: https://github.com/rvben/rumdl-pre-commit
-    rev: v0.1.18
+    rev: v0.1.19
     hooks:
       - id: rumdl # A modern, high-performance Markdown linter and formatter, built for speed in Rust.
         priority: 0
