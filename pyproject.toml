@@ -125,16 +125,16 @@ docs = [
     "mkdocs-exclude==1.0.2", # https://pypi.org/project/mkdocs-exclude
     "mkdocs-jupyter==0.25.1", # https://pypi.org/project/mkdocs-jupyter
     "mkdocs-llmstxt==0.5.0", # https://pypi.org/project/mkdocs-llmstxt
-    "mkdocs-material[imaging]==9.7.1", # https://pypi.org/project/mkdocs-material
+    "mkdocs-material[imaging]==9.7.2", # https://pypi.org/project/mkdocs-material
     "mkdocs-redirects==1.2.2", # https://pypi.org/project/mkdocs-redirects
     "mkdocstrings-python==2.0.2", # https://pypi.org/project/mkdocstrings-python
     "mkdocstrings[python]==1.0.3", # https://pypi.org/project/mkdocstrings
 ]
 prek-hooks = [
     "beautysh==6.4.2", # https://pypi.org/project/beautysh
-    "check-jsonschema==0.36.1", # https://pypi.org/project/check-jsonschema
+    "check-jsonschema==0.36.2", # https://pypi.org/project/check-jsonschema
     "complexipy==5.2.0", # https://pypi.org/project/complexipy
-    "creosote==4.1.0", # https://pypi.org/project/creosote
+    "creosote==5.0.0", # https://pypi.org/project/creosote
     "djhtml==3.0.10", # https://pypi.org/project/djhtml
     "djlint==1.36.4", # https://pypi.org/project/djlint
     "editorconfig-checker==3.6.0", # https://pypi.org/project/editorconfig-checker
@@ -144,17 +144,17 @@ prek-hooks = [
     "flake8-pyproject==1.2.4", # https://pypi.org/project/flake8-pyproject
     "google-yamlfmt==0.21.0", # https://pypi.org/project/google-yamlfmt
     "pre-commit-hooks==6.0.0", # https://pypi.org/project/pre-commit-hooks
-    "prek==0.3.2", # https://pypi.org/project/prek
-    "pyrefly==0.52.0", # https://pypi.org/project/pyrefly
+    "prek==0.3.3", # https://pypi.org/project/prek
+    "pyrefly==0.53.0", # https://pypi.org/project/pyrefly
     "pyroma==5.0.1", # https://pypi.org/project/pyroma
-    "ruff==0.15.0", # https://pypi.org/project/ruff
-    "rumdl==0.1.18", # https://pypi.org/project/rumdl
+    "ruff==0.15.2", # https://pypi.org/project/ruff
+    "rumdl==0.1.23", # https://pypi.org/project/rumdl
     "shellcheck-py==0.11.0.1", # https://pypi.org/project/shellcheck-py
     "shfmt-py==3.12.0.2", # https://pypi.org/project/shfmt-py
     "sync-pre-commit-deps==0.0.3", # https://pypi.org/project/sync-pre-commit-deps
-    "tombi==0.7.28", # https://pypi.org/project/tombi
-    "ty==0.0.14", # https://pypi.org/project/ty
-    "typos==1.43.4", # https://pypi.org/project/typos
+    "tombi==0.7.31", # https://pypi.org/project/tombi
+    "ty==0.0.17", # https://pypi.org/project/ty
+    "typos==1.43.5", # https://pypi.org/project/typos
     "vale==3.13.0.0", # https://pypi.org/project/vale
     "validate-pyproject-schema-store[all]==2026.1.22", # https://pypi.org/project/validate-pyproject-schema-store
     "zizmor==1.22.0", # https://pypi.org/project/zizmor
@@ -169,14 +169,14 @@ test = [
     "pytest-asyncio==1.3.0", # https://pypi.org/project/pytest-asyncio
     "pytest-benchmark==5.2.3", # https://pypi.org/project/pytest-benchmark
     "pytest-cov==7.0.0", # https://pypi.org/project/pytest-cov
-    "pytest-env==1.3.2", # https://pypi.org/project/pytest-env
+    "pytest-env==1.5.0", # https://pypi.org/project/pytest-env
     "pytest-github-actions-annotate-failures==0.3.0", # https://pypi.org/project/pytest-github-actions-annotate-failures
     "pytest-pretty==1.3.0", # https://pypi.org/project/pytest-pretty
     "pytest-smoke==0.10.0", # https://pypi.org/project/pytest-smoke
 ]
 typing-stubs = [
     "types-Markdown==3.10.2.20260211", # https://pypi.org/project/types-Markdown
-    "types-lxml==2026.1.1", # https://pypi.org/project/types-lxml
+    "types-lxml==2026.2.16", # https://pypi.org/project/types-lxml
     "types-pygments==2.19.0.20251121", # https://pypi.org/project/types-pygments
 ]
 
