@@ -65,7 +65,7 @@ repos:
             - .pre-commit-config-check.yaml
             - .pre-commit-config-format.yaml
   - repo: https://github.com/rhysd/actionlint
-    rev: v1.7.10
+    rev: v1.7.11
     hooks:
       - id: actionlint # Runs actionlint to lint GitHub Actions workflow files.
         language: golang
@@ -73,7 +73,7 @@ repos:
         additional_dependencies:
           - "github.com/wasilibs/go-shellcheck/cmd/shellcheck@v0.11.1"
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.36.1 # A JSON Schema CLI and pre-commit hook built on jsonschema.
+    rev: 0.36.2 # A JSON Schema CLI and pre-commit hook built on jsonschema.
     hooks:
       - id: check-codecov # Validate Codecov config against the schema provided by SchemaStore.
         priority: 0
@@ -91,7 +91,7 @@ repos:
       - id: complexipy # Run the cognitive complexity checker.
         priority: 0
   - repo: https://github.com/fredrikaverpil/creosote
-    rev: v4.2.0
+    rev: v5.0.0
     hooks:
       - id: creosote # Identify unused dependencies and avoid a bloated virtual environment.
         priority: 0
@@ -129,7 +129,7 @@ repos:
       - id: pyroma # Rate your Python packages package friendliness.
         priority: 0
   - repo: https://github.com/renovatebot/pre-commit-hooks
-    rev: 43.8.5
+    rev: 43.26.4
     hooks:
       - id: renovate-config-validator
         language: bun
@@ -140,7 +140,7 @@ repos:
           glob:
             - .github/renovate.json5
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.15.0
+    rev: v0.15.2
     hooks:
       - id: ruff-format # Check for formatting violations using Ruff.
         priority: 0
@@ -151,7 +151,7 @@ repos:
         args: ["--output-format=concise"]
         types_or: [python]
   - repo: https://github.com/rvben/rumdl-pre-commit
-    rev: v0.1.18
+    rev: v0.1.23
     hooks:
       - id: rumdl # A modern, high-performance Markdown linter and formatter, built for speed in Rust.
         priority: 0
@@ -163,12 +163,12 @@ repos:
           glob:
             - .pre-commit-config-check.yaml
   - repo: https://github.com/tombi-toml/tombi-pre-commit
-    rev: v0.7.28
+    rev: v0.7.31
     hooks:
       - id: tombi-lint # A TOML linter.
         priority: 0
   - repo: https://github.com/crate-ci/typos
-    rev: v1.43.4
+    rev: v1.43.5
     hooks:
       - id: typos # Source code spell checker.
         priority: 0
